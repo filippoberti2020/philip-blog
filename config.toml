@@ -6,7 +6,7 @@ theme = "hugo-theme-codex"
 # Override these settings with your own
 title = "philip-blog"
 languageCode = "en-us"
-baseURL = "https://philip-sherpas.netflify.app"
+baseURL = "https://philip-sherpas.netlify.app"
 copyright = "© {year}"
 
 # Add your Disqus shortname here.
