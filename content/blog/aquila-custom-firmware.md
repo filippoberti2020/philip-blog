@@ -3,7 +3,7 @@ title: "Installing Alex Custom Firmware on Aquila 3D Printer: A Step-by-Step Gui
 date: 2022-12-10
 slug: "aquila-custom-firmware-guide"
 description: "Get the most out of your Aquila 3D printer by installing the powerful Alex Custom Firmware. This guide will walk you through the installation process, step-by-step, providing the best the procedures order to avoid mistakes. Upgrade your Aquila 3D Printer today with our easy guide."
-keywords: ["aquila", "custom-firmware", "voxelab", "alex-firmware","3D printer"]
+keywords: ["aquila","alex firmware aquila", "firmware","alex", "custom-firmware", "voxelab", "aquila alex firmware","3D printer"]
 draft: false
 tags: ["3D_Printing"]
 math: false
