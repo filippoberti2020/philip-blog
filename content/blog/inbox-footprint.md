@@ -11,7 +11,7 @@ toc: true
 ---
 
 
-The energy required to keep all old emails can be limited only by our behavior.
+As we continue to rely heavily on digital communication, the energy consumption required to store and maintain our old emails may seem insignificant. However, new research shows that the impact of our email storage habits on climate change and natural resources is not to be underestimated. With the average person receiving and sending hundreds of emails per day, the energy required to keep all old emails can be limited only by our behavior. It's time to take a closer look at our digital footprint and make conscious decisions to reduce our energy consumption.
 
 
 ## Brief History
@@ -37,7 +37,8 @@ Additionally, keeping a clean inbox can also benefit our own well-being. A clean
 - If you have no documents or emails with material you need, then delete all the emails by selecting them all at once.
 - If you want to be more aware of how much unnecessary data you're keeping, you can delete emails one by one, check them, and keep the ones you need.
 
-By following these steps, you should have an empty or nearly empty inbox. And by unsubscribing from newsletters and deleting old emails, you'll be able to check for any missed emails or newsletters the next day.
+NOTE:I do not recommend using any service to delete or carry out unsubscriptions because they require access to your e-mail to work. And as much as they may state in the terms of the services that they do not save your data I prefer not to give them the benefit of the doubt.
+After following the steps shown above, you should have an empty or nearly empty inbox. And by unsubscribing from newsletters and deleting old emails, you'll be able to check for any missed emails or newsletters the next day.
 
 
 ## Apply this approach to all your digital data
