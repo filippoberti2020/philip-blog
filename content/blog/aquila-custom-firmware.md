@@ -20,9 +20,7 @@ toc: true
 
 ## Find out the chip model of your 3D printer
 
-The same model of the Aquila 3d printer came with a different motherboard chip. For example, the Voxelab Aquila X2 could have the H32 or N32 chip. And in some rare cases of early X2 printersthe G32 chip. Instead, the first model (Voxelab Aquila) could have a G32, N32 or H32 chip. 
-
-You need to find out what model you have on your machine.  
+The same model of the Aquila 3d printer came with a different motherboard chip. For example, the Voxelab Aquila X2 could have the H32 or N32 chip. And in some rare cases of early X2 printersthe G32 chip. Instead, the first model (Voxelab Aquila) could have a G32, N32 or H32 chip. If you want to be 100% sure you could read the text on the black motherboard chip. You should find something like "GD32F103", in this case you have a G32 chip model(You need to read the first part G[D]32). You need to find out what model you have on your machine.  
 
 So you can find yourself in one of these following cases: 
 
@@ -33,7 +31,10 @@ So you can find yourself in one of these following cases:
 
 	>If this is the case, this means that you have a **G32** chip board.
 
+***
 
+NOTE:
+- It may happen that your motherboard has been replaced in case you bought the printer used or if it is a returned printer. So if you want to be 100% sure you need to read the text on the black motherboard chip. You should find something like "GD32F103", in this case you have a G32 chip model(You need to read the first part G[D]32).
 
 ## Download the right firmware version based on your 3d printer model
 
@@ -62,10 +63,10 @@ For the **H32** chip, follow these steps:
 
 * You have a stock machine with no BL Touch (sensor mounted on the hotend to perform auto bed leveling) installed. From the factory, it comes without the BL Touch.
 
-	Download the ***Source code(zip)*** file of the **v1.3.6** release. This is beta firmware, so it could have some bugs and issue (It is stable but has some known issues, about which you can find out more by reading the part above the files in the repository from which you will download the files) from the [github repository](https://github.com/alexqzd/Marlin-H32/releases), and extract it on the desktop of your computer. Than you need to open the extracted ***Source Code*** folder, that could be found inside the **Display firmware** -> **Firmware Sets** folder, go and copy the ***DWIN_SET (Voxelab Red)*** folder on the desktop. Rename it ***DWIN_SET***. 
+	Download the ***Source code(zip)*** file of the **v1.3.6** release. This is beta firmware, so it could have some bugs and issue (It is stable but has some known issues, about which you can find out more by reading the part above the files in the repository from which you will download the files) from the [github repository](https://github.com/alexqzd/Marlin/releases), and extract it on the desktop of your computer. Than you need to open the extracted ***Source Code*** folder, that could be found inside the **Display firmware** -> **Firmware Sets** folder, go and copy the ***DWIN_SET (Voxelab Red)*** folder on the desktop. Rename it ***DWIN_SET***. 
 	Later, this folder will be put on the SD card to flash the display firmware.
 
-	Now you need to download the specific firmware for your machine. In this case, since you have a stock machine you need to install the **Manual Mesh** firmware file named with the same chip model of your machine(N32 or G32). For example, if you have a N32 chip machine, you will download the ***ManualMesh-5x5-H32.bin*** file. Now if you have follow all the steps, on your desktop you should have the **.bin** file and the **DWIN_SET** folder. If this is the case go to the final part of the guide.
+	Now you need to download the specific firmware for your machine. In this case, since you have a stock machine you need to download the **Manual Mesh** firmware file named with the same chip model of your machine(N32 or G32) from this [github repository](https://github.com/alexqzd/Marlin-H32/releases). For example, if you have a N32 chip machine, you will download the ***ManualMesh-5x5-H32.bin*** file. Now if you have follow all the steps, on your desktop you should have the **.bin** file and the **DWIN_SET** folder. If this is the case go to the final part of the guide.
   
 
 * You have install a Bl Touch senosr
