@@ -54,7 +54,7 @@ Now you need to download the specific firmware for your machine. In this case, s
 	Download the ***Source code(zip)*** file of the **v1.3.5** firmware, which is the latest stable version, from the [github repository](https://github.com/alexqzd/Marlin/releases), extract it on the desktop of your computer (You can use other versions but keep in mind that they can have bugs). Than you need to open the extracted ***Source Code*** folder, that could be found inside the **Display firmware** -> **Firmware Sets** folder, go and copy the ***DWIN_SET (Voxelab Red)*** folder on the desktop. Rename it ***DWIN_SET***. 
 	Later, this folder will be put on the SD card to flash the display firmware.
 
-	Now you need to download the specific firmware for your machine. In this case, since you have a stock machine you need to install the **Manual Mesh** firmware file named with the same chip model of your machine(N32 or G32). For example, if you have a N32 chip machine, you will download the ***BLTouch-5x5-N32.bin*** file. Now if you have follow all the steps, on your desktop you should have the **.bin** file and the **DWIN_SET** folder. If this is the case, go to the final part of the guide.
+	Now you need to download the specific firmware for your machine. In this case, since you have a stock machine you need to install the **BLTouch** firmware file named with the same chip model of your machine(N32 or G32). For example, if you have a N32 chip machine, you will download the ***BLTouch-5x5-N32.bin*** file. Now if you have follow all the steps, on your desktop you should have the **.bin** file and the **DWIN_SET** folder. If this is the case, go to the final part of the guide.
 
 
 For the **H32** chip, follow these steps:
@@ -73,8 +73,13 @@ For the **H32** chip, follow these steps:
 	Download the ***Source code(zip)*** file of the **v1.3.6** release. This is beta firmware so it could have some bugs and issue (It is stable but has some known issues, about which you can find out more by reading the part above the files in the repository from which you will download the files) from the [github repository](https://github.com/alexqzd/Marlin-H32/releases), and extract it on the desktop of your computer. Than you need to open the extracted ***Source Code*** folder, that could be found inside the **Display firmware** -> **Firmware Sets** folder, go and copy the ***DWIN_SET (Voxelab Red)*** folder on the desktop. Rename it ***DWIN_SET***. 
 	Later, this folder will be put on the SD card to flash the display firmware.
 
-	Now you need to download the specific firmware for your machine. In this case, since you have a stock machine you need to install the **Manual Mesh** firmware file named with the same chip model of your machine(N32 or G32). For example, if you have a N32 chip machine, you will download the ***BLTouch-5x5-H32.bin*** file. Now if you have follow all the steps, on your desktop you should have the **.bin** file and the **DWIN_SET** folder. If this is the case, go to the final part of the guide.
+	Now you need to download the specific firmware for your machine. In this case, since you have a stock machine you need to install the **BLTouch** firmware file named with the same chip model of your machine(N32 or G32). For example, if you have a N32 chip machine, you will download the ***BLTouch-5x5-H32.bin*** file. Now if you have follow all the steps, on your desktop you should have the **.bin** file and the **DWIN_SET** folder. If this is the case, go to the final part of the guide.
 
+TERM DICTIONARY:
+Default = firmware version does not contain any mesh or level functionality.
+Manual Mesh = firmware version ley you moves the nozzle to each point of the gird and you let the printer know when the nozzle is a the right distance from the bed using a paper sheet.
+UBL = stand for Unified Bed Leveling, is a new advanced leveling system that lets you edit and tilt the mesh using the same technique as manual mesh. Also if you have a BLTouch you can combine it with manual level and fine tune the unreachables area of the bed.
+HS = stand for Hight Speed(In this firmware version the BLTouch keeps the pin extended between probes to save time).
 
 ## Install it
 
