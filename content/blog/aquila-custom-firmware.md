@@ -76,21 +76,17 @@ For the **H32** chip, follow these steps:
 
 	Now you need to download the specific firmware for your machine. In this case, since you have a stock machine you need to install the **BLTouch** firmware file named with the same chip model of your machine(N32 or G32). For example, if you have a N32 chip machine, you will download the ***BLTouch-5x5-H32.bin*** file. Now if you have follow all the steps, on your desktop you should have the **.bin** file and the **DWIN_SET** folder. If this is the case, go to the final part of the guide.
 
+***
+
 NOTE:
-
-If you are installing the same firmware as already previously intalled, this can cause the chip to skip the update. In this case you can simply change the .bin file name.
-
-If you are installing the firmware on a Creality motherboard then the bootloader looks for the .bin file in the root folder instaed of the firmware folder.
+- If you are installing the same firmware as already previously intalled, this can cause the chip to skip the update. In this case you can simply change the .bin file name.
+- If you are installing the firmware on a Creality motherboard then the bootloader looks for the .bin file in the root folder instaed of the firmware folder.
 
 TERM DICTIONARY:
-
-Default = firmware version does not contain any mesh or level functionality.
-
-Manual Mesh = firmware version ley you moves the nozzle to each point of the gird and you let the printer know when the nozzle is a the right distance from the bed using a paper sheet.
-
-UBL = stand for Unified Bed Leveling, is a new advanced leveling system that lets you edit and tilt the mesh using the same technique as manual mesh. Also if you have a BLTouch you can combine it with manual level and fine tune the unreachables area of the bed.
-
-HS = stand for Hight Speed(In this firmware version the BLTouch keeps the pin extended between probes to save time).
+- Default = firmware version does not contain any mesh or level functionality.
+- Manual Mesh = firmware version ley you moves the nozzle to each point of the gird and you let the printer know when the nozzle is a the right distance from the bed using a paper sheet.
+- UBL = stand for Unified Bed Leveling, is a new advanced leveling system that lets you edit and tilt the mesh using the same technique as manual mesh. Also if you have a BLTouch you can combine it with manual level and fine tune the unreachables area of the bed.
+- HS = stand for Hight Speed(In this firmware version the BLTouch keeps the pin extended between probes to save time).
 
 ## Install it
 
