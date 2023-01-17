@@ -34,59 +34,49 @@ So you can find yourself in one of these following cases:
 ***
 
 NOTE:
-- It may happen that your motherboard has been replaced in case you bought the printer used or if it is a returned printer. So if you want to be 100% sure you need to read the text on the black motherboard chip. You should find something like "GD32F103", in this case you have a G32 chip model(You need to read the first part G[D]32).
+- It may happen that your motherboard has been replaced in case you bought the printer used or if it is a returned printer. So if you want to be 100% sure you need to read the text on the black motherboard chip. You should find something like "GD32F103", in this case you have a G32 chip model (You need to read the first part G[D]32).
 
 ## Download the right firmware version based on your 3d printer model
 
-Now that you know what chip model you have, you need to download the firmware based on your 3d printer setup and preferences. The case are the following:
+Now that you know what chip model you have, you need to download the printer and display firmware based on your 3d printer setup and preferences (The display firmware is the same for all the 3d printer chip models). Now fisrt follow the steps for the display firmware because it is the same for all chip models, and than follow the printer firmware steps based on your printer chip model:
 
+### Display firmware instruction 
+
+Download the display firmware zip file from this [github repository  direct download link](https://downgit.github.io/#/home?url=https://github.com/alexqzd/Marlin/tree/main/Display%20firmware), extract it on the desktop of your computer. Than you need to open it, and go in the **Display firmware** -> **Firmware Sets** folder, go and copy the ***DWIN_SET (Voxelab Red)*** folder on the desktop. Rename it ***DWIN_SET***. Later, this folder will be put on the SD card to flash the display firmware.
+
+### Printer firmware instruction 
 For **N32** and **G32** chips, follow these steps:
 
 * You have a stock machine with no BL Touch (sensor mounted on the hotend to perform auto bed leveling) install. From the factory, it comes without the BL Touch.
 
-	Download the ***Source code(zip)*** file of the **v1.3.5** firmware, 					which is the latest stable version, from the [github repository](https://github.com/alexqzd/Marlin/releases), extract it on the desktop of your computer (You can use other versions but keep in mind that they can have bugs). Than you need to open the extracted ***Source Code*** folder, that could be found inside the **Display firmware** -> **Firmware Sets** folder, go and copy the ***DWIN_SET (Voxelab Red)*** folder on the desktop. Rename it ***DWIN_SET***. 
+	In this case, since you have a stock machine you need to install the **Manual Mesh** firmware file named with the same chip model of your machine(N32 or G32)  from this [github repository](https://github.com/alexqzd/Marlin/releases). For example, if you have a N32 chip machine, you will download the ***ManualMesh-5x5-N32.bin*** file. Now if you have follow all the steps, on your desktop you should have the **.bin** file and the **DWIN_SET** folder. If this is the case, go to the final part of the guide.
 
-	Later, this folder will be put on the SD card to flash the display firmware.
-Now you need to download the specific firmware for your machine. In this case, since you have a stock machine you need to install the **Manual Mesh** firmware file named with the same chip model of your machine(N32 or G32). For example, if you have a N32 chip machine, you will download the ***ManualMesh-5x5-N32.bin*** file. Now if you have follow all the steps, on your desktop you should have the **.bin** file and the **DWIN_SET** folder. If this is the case, go to the final part of the guide.
-  
+* You have install a Bl Touch sensor
 
-* You have install a Bl Touch senosr
-
-
-	Download the ***Source code(zip)*** file of the **v1.3.5** firmware, which is the latest stable version, from the [github repository](https://github.com/alexqzd/Marlin/releases), extract it on the desktop of your computer (You can use other versions but keep in mind that they can have bugs). Than you need to open the extracted ***Source Code*** folder, that could be found inside the **Display firmware** -> **Firmware Sets** folder, go and copy the ***DWIN_SET (Voxelab Red)*** folder on the desktop. Rename it ***DWIN_SET***. 
-	Later, this folder will be put on the SD card to flash the display firmware.
-
-	Now you need to download the specific firmware for your machine. In this case, since you have a stock machine you need to install the **BLTouch** firmware file named with the same chip model of your machine(N32 or G32). For example, if you have a N32 chip machine, you will download the ***BLTouch-5x5-N32.bin*** file. Now if you have follow all the steps, on your desktop you should have the **.bin** file and the **DWIN_SET** folder. If this is the case, go to the final part of the guide.
-
+	In this case, since you have a stock machine you need to install the **BLTouch** firmware file named with the same chip model of your machine(N32 or G32) from this [github repository](https://github.com/alexqzd/Marlin/releases). For example, if you have a N32 chip machine, you will download the ***BLTouch-5x5-N32.bin*** file. Now if you have follow all the steps, on your desktop you should have the **.bin** file and the **DWIN_SET** folder. If this is the case, go to the final part of the guide.
 
 For the **H32** chip, follow these steps:
 
 * You have a stock machine with no BL Touch (sensor mounted on the hotend to perform auto bed leveling) installed. From the factory, it comes without the BL Touch.
 
-	Download the ***Source code(zip)*** file of the **v1.3.6** release. This is beta firmware, so it could have some bugs and issue (It is stable but has some known issues, about which you can find out more by reading the part above the files in the repository from which you will download the files) from the [github repository](https://github.com/alexqzd/Marlin/releases), and extract it on the desktop of your computer. Than you need to open the extracted ***Source Code*** folder, that could be found inside the **Display firmware** -> **Firmware Sets** folder, go and copy the ***DWIN_SET (Voxelab Red)*** folder on the desktop. Rename it ***DWIN_SET***. 
-	Later, this folder will be put on the SD card to flash the display firmware.
-
-	Now you need to download the specific firmware for your machine. In this case, since you have a stock machine you need to download the **Manual Mesh** firmware file named with the same chip model of your machine(N32 or G32) from this [github repository](https://github.com/alexqzd/Marlin-H32/releases). For example, if you have a N32 chip machine, you will download the ***ManualMesh-5x5-H32.bin*** file. Now if you have follow all the steps, on your desktop you should have the **.bin** file and the **DWIN_SET** folder. If this is the case go to the final part of the guide.
+	In this case, since you have a stock machine you need to download the **Manual Mesh** firmware file named with the same chip model of your machine(N32 or G32) from this [github repository](https://github.com/alexqzd/Marlin-H32/releases). For example, if you have a N32 chip machine, you will download the ***ManualMesh-5x5-H32.bin*** file. Now if you have follow all the steps, on your desktop you should have the **.bin** file and the **DWIN_SET** folder. If this is the case go to the final part of the guide.
   
 
 * You have install a Bl Touch senosr
 
 
-	Download the ***Source code(zip)*** file of the **v1.3.6** release. This is beta firmware so it could have some bugs and issue (It is stable but has some known issues, about which you can find out more by reading the part above the files in the repository from which you will download the files) from the [github repository](https://github.com/alexqzd/Marlin-H32/releases), and extract it on the desktop of your computer. Than you need to open the extracted ***Source Code*** folder, that could be found inside the **Display firmware** -> **Firmware Sets** folder, go and copy the ***DWIN_SET (Voxelab Red)*** folder on the desktop. Rename it ***DWIN_SET***. 
-	Later, this folder will be put on the SD card to flash the display firmware.
-
-	Now you need to download the specific firmware for your machine. In this case, since you have a stock machine you need to install the **BLTouch** firmware file named with the same chip model of your machine(N32 or G32). For example, if you have a N32 chip machine, you will download the ***BLTouch-5x5-H32.bin*** file. Now if you have follow all the steps, on your desktop you should have the **.bin** file and the **DWIN_SET** folder. If this is the case, go to the final part of the guide.
+	In this case, since you have a stock machine you need to install the **BLTouch** firmware file named with the same chip model of your machine(N32 or G32) from this [github repository](https://github.com/alexqzd/Marlin-H32/releases). For example, if you have a N32 chip machine, you will download the ***BLTouch-5x5-H32.bin*** file. Now if you have follow all the steps, on your desktop you should have the **.bin** file and the **DWIN_SET** folder. If this is the case, go to the final part of the guide.
 
 ***
 
 NOTE:
-- If you are installing the same firmware as already previously intalled, this can cause the chip to skip the update. In this case you can simply change the .bin file name.
-- If you are installing the firmware on a Creality motherboard then the bootloader looks for the .bin file in the root folder instaed of the firmware folder.
+- If you are installing the same firmware as already previously installed, this can cause the chip to skip the update. In this case you can simply change the .bin file name.
+- If you are installing the firmware on a Creality motherboard then the bootloader looks for the .bin file in the root folder instead of the firmware folder.
 
 TERM DICTIONARY:
 - Default = firmware version does not contain any mesh or level functionality.
-- Manual Mesh = firmware version ley you moves the nozzle to each point of the gird and you let the printer know when the nozzle is a the right distance from the bed using a paper sheet.
-- UBL = stand for Unified Bed Leveling, is a new advanced leveling system that lets you edit and tilt the mesh using the same technique as manual mesh. Also if you have a BLTouch you can combine it with manual level and fine tune the unreachables area of the bed.
+- Manual Mesh = firmware version let you moves the nozzle to each point of the gird and you let the printer know when the nozzle is a the right distance from the bed using a paper sheet.
+- UBL = stand for Unified Bed Leveling, is a new advanced leveling system that lets you edit and tilt the mesh using the same technique as manual mesh. Also if you have a BLTouch you can combine it with manual level and fine tune the unreachable area of the bed.
 - HS = stand for Hight Speed(In this firmware version the BLTouch keeps the pin extended between probes to save time).
 
 ## Install it
