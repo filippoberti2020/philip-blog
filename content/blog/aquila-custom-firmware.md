@@ -34,8 +34,8 @@ So you can find yourself in one of these following cases:
 ***
 
 NOTE:
-| It may happen that your motherboard has been replaced in case you bought the printer used or if it is a returned printer. So if you want to be 100% 	 | sure you need to read the text on the black motherboard chip. You should find something like "GD32F103", in this case you have a G32 chip model	   | (You need to read the first part G[D]32).
-|   that your code does not quite align  
+- It may happen that your motherboard has been replaced in case you bought the printer used or if it is a returned printer. So if you want to be 100% 	 - sure you need to read the text on the black motherboard chip. You should find something like "GD32F103", in this case you have a G32 chip model	   - (You need to read the first part G[D]32).
+
 
 ## Download the right firmware version based on your 3d printer model
 
@@ -71,8 +71,8 @@ For the **H32** chip, follow these steps:
 ***
 
 NOTE:
-| If you are installing the same firmware as already previously installed, this can cause the chip to skip the update. In this case you can simply change the .bin file name.
-| If you are installing the firmware on a Creality motherboard then the bootloader looks for the .bin file in the root folder instead of the firmware folder.
+- If you are installing the same firmware as already previously installed, this can cause the chip to skip the update. In this case you can simply change the .bin file name.
+- If you are installing the firmware on a Creality motherboard then the bootloader looks for the .bin file in the root folder instead of the firmware folder.
 
 TERM DICTIONARY:
 - Default = firmware version does not contain any mesh or level functionality.
