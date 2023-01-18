@@ -34,8 +34,7 @@ So you can find yourself in one of these following cases:
 ***
 
 NOTE:
-
-&nbsp;&nbsp;&nbsp;&nbsp;It may happen that your motherboard has been replaced in case you bought the printer used or if it is a returned printer. So if        you want to be 100% sure you need to read the text on the black motherboard chip. You should find something like "GD32F103", in this case you have a      G32 chip model(You need to read the first part G[D]32).
+- It may happen that your motherboard has been replaced in case you bought the printer used or if it is a returned printer. So if you want to be 100%  sure you need to read the text on the black motherboard chip. You should find something like "GD32F103", in this case you have a G32 chip model(You need to read the first part G[D]32).
 
 
 ## Download the right firmware version based on your 3d printer model
