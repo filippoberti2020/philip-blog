@@ -70,10 +70,6 @@ For the **H32** chip, follow these steps:
 
 ***
 
-NOTE:
-- If you are installing the same firmware as already previously installed, this can cause the chip to skip the update. In this case you can simply change the .bin file name.
-- If you are installing the firmware on a Creality motherboard then the bootloader looks for the .bin file in the root folder instead of the firmware folder.
-
 TERM DICTIONARY:
 - Default = firmware version does not contain any mesh or level functionality.
 - Manual Mesh = firmware version let you moves the nozzle to each point of the gird and you let the printer know when the nozzle is a the right distance from the bed using a paper sheet.
@@ -81,7 +77,7 @@ TERM DICTIONARY:
 - HS = stand for Hight Speed(In this firmware version the BLTouch keeps the pin extended between probes to save time).
 
 ## Install it
-WARN: It is recommended to perform the following steps a Windows or Linux, because Macs leave hidden files on the SDcard that will prevent the firmware from installing, more likely with the display firmware. (More in info could be found [here](https://www.reddit.com/r/VoxelabAquila/comments/odxwdk/psa_before_flashing_custom_firmware_using_macos/)).
+WARN: It is recommended to perform the following steps a Windows or Linux, because Macs leave hidden files on the SDcard that will prevent the firmware from installing, more likely with the display firmware (More in info could be found [here](https://www.reddit.com/r/VoxelabAquila/comments/odxwdk/psa_before_flashing_custom_firmware_using_macos/)).
 Also large capacity SDcards can cause problems so i suggest to avoid any other one with a greater size fomr the factory one that is 8GB.
 
 Plug in the 3d printer SD card into your computer.
@@ -92,5 +88,11 @@ Now with the 3d printer turn OFF, insert the SD card in the 3d printer's front S
 Now you need to plug the SD card on the back of the display, where there is the SD reader. To access it, you will have to remove the display from the printer and remove all the screws on the back of the display. Once you've done that, turn ON the printer and wait until you see an orange screen.
 If the screen firmware was installed correctly, this will turn blue and then remain orange (If it did not turn blue or only flashes for a split second then it did not install). After you see the orange screen, turn OFF the printer and remove the SD card from the display. Put the display back together  without the SD card. After this, you can finally turn ON the printer, and you should have the brand new custom firmware running on your 3d printer.
 
-
 Enjoy printing!
+
+***
+
+
+NOTE:
+- If you are installing the same firmware as already previously installed, this can cause the chip to skip the update. In this case you can simply change the .bin file name.
+- If you are installing the firmware on a Creality motherboard then the bootloader looks for the .bin file in the root folder instead of the firmware folder.
