@@ -20,7 +20,7 @@ toc: true
 
 ## Find out the chip model of your 3D printer
 
-The same model of the Aquila 3d printer came with a different motherboard chip. For example, the Voxelab Aquila X2 could have the H32 or N32 chip. And in some rare cases of early X2 printersthe G32 chip. Instead, the first model (Voxelab Aquila) could have a G32, N32 or H32 chip. If you want to be 100% sure you could read the text on the black motherboard chip(read NOTE for more). You need to find out what model you have on your machine.  
+The same model of the Aquila 3d printer came with a different motherboard chip. For example, the Voxelab Aquila X2 could have the H32 or N32 chip. And in some rare cases of early X2 printers the G32 chip. Instead, the first model (Voxelab Aquila) could have a G32, N32 or H32 chip. If you want to be 100% sure you could read the text on the black motherboard chip(read the NOTE for more). You need to find out what model you have on your machine.  
 
 So you can find yourself in one of these following cases: 
 
@@ -39,7 +39,7 @@ NOTE:
 
 ## Download the right firmware version based on your 3d printer model
 
-Now that you know what chip model you have, you need to download the printer and display firmware based on your 3d printer setup and preferences (The display firmware is the same for all the 3d printer chip models). Now fisrt follow the steps for the display firmware because it is the same for all chip models, and than follow the printer firmware steps based on your printer chip model:
+Now that you know what chip model you have, you need to download the printer and display firmware based on your 3d printer setup and preferences (The display firmware is the same for all the 3d printer chip models). Now fisrt follow the steps for the display firmware because it is the same for all chip models, and than follow the printer firmware steps based on your printer chip model.
 
 ### Display firmware instruction 
 
@@ -81,6 +81,8 @@ TERM DICTIONARY:
 - HS = stand for Hight Speed(In this firmware version the BLTouch keeps the pin extended between probes to save time).
 
 ## Install it
+WARN: It is recommended to perform the following steps a Windows or Linux, because Macs leave hidden files on the SDcard that will prevent the firmware from installing, more likely with the display firmware. (More in info could be found [here](https://www.reddit.com/r/VoxelabAquila/comments/odxwdk/psa_before_flashing_custom_firmware_using_macos/)).
+Also large capacity SDcards can cause problems so i suggest to avoid any other one with a greater size fomr the factory one that is 8GB.
 
 Plug in the 3d printer SD card into your computer.
 Format the SD card in FAT32 format, and make sure the unit size is set to **4096**.
@@ -88,7 +90,7 @@ Drag and drop into the SD card the **DWIN_SET** folder.
 Now on the SD card, you need to create a folder named **firmware** in lower case, and inside it you are going to put the firmware **.bin** file that you previously downloaded. You should have on the SD card two folders, one named ***firmware*** and the second one named ***DWIN_SET***.
 Now with the 3d printer turn OFF, insert the SD card in the 3d printer's front SD card reader, and then power ON the 3d printer. Now wait until you see a check mark on the screen. After this, you can turn OFF the printer.
 Now you need to plug the SD card on the back of the display, where there is the SD reader. To access it, you will have to remove the display from the printer and remove all the screws on the back of the display. Once you've done that, turn ON the printer and wait until you see an orange screen.
-After you see the orange screen, turn OFF the printer and remove the SD card from the display. Put the display back together  without the SD card. After this, you can finally turn ON the printer, and you should have the brand new custom firmware running on your 3d printer.
+If the screen firmware was installed correctly, this will turn blue and then remain orange (If it did not turn blue or only flashes for a split second then it did not install). After you see the orange screen, turn OFF the printer and remove the SD card from the display. Put the display back together  without the SD card. After this, you can finally turn ON the printer, and you should have the brand new custom firmware running on your 3d printer.
 
 
 Enjoy printing!
