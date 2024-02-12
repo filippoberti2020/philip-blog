@@ -1,5 +1,5 @@
 ---
 heading: "Hi, I'm Philip"
-subheading: "A minimal blog of a digital sherpa."
+subheading: "This is my personal minimal blog"
 handle: "hugo-theme-codex"
 ---
