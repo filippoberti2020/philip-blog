@@ -9,42 +9,77 @@
 
 <url>
   <loc>https://philip-sherpas.netlify.app/</loc>
-  <lastmod>2023-01-13T13:03:30+00:00</lastmod>
+  <lastmod>2024-03-02T14:09:30+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://philip-sherpas.netlify.app/blog/</loc>
-  <lastmod>2023-01-13T13:03:30+00:00</lastmod>
+  <lastmod>2024-03-02T14:09:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
+  <loc>https://philip-sherpas.netlify.app/blog/privacy-security-guide/</loc>
+  <lastmod>2024-03-02T14:09:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://philip-sherpas.netlify.app/tags/privacy/</loc>
+  <lastmod>2024-03-02T14:09:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://philip-sherpas.netlify.app/tags/security/</loc>
+  <lastmod>2024-03-02T14:09:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://philip-sherpas.netlify.app/tags/technology/</loc>
+  <lastmod>2024-03-02T14:09:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
   <loc>https://philip-sherpas.netlify.app/blog/bike-parking-impact/</loc>
-  <lastmod>2023-01-13T13:03:30+00:00</lastmod>
+  <lastmod>2024-03-02T14:09:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://philip-sherpas.netlify.app/tags/cycling/</loc>
-  <lastmod>2023-01-13T13:03:30+00:00</lastmod>
+  <lastmod>2024-03-02T14:09:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://philip-sherpas.netlify.app/blog/inbox-footprint/</loc>
-  <lastmod>2023-01-13T13:03:30+00:00</lastmod>
+  <lastmod>2024-03-02T14:09:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://philip-sherpas.netlify.app/tags/sustainability/</loc>
-  <lastmod>2023-01-13T13:03:30+00:00</lastmod>
+  <lastmod>2024-03-02T14:09:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://philip-sherpas.netlify.app/blog/linux-battery-optimization-guide/</loc>
+  <lastmod>2024-03-02T14:09:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://philip-sherpas.netlify.app/tags/linux/</loc>
+  <lastmod>2024-03-02T14:09:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://philip-sherpas.netlify.app/tags/battery_optimization/</loc>
+  <lastmod>2024-03-02T14:09:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://philip-sherpas.netlify.app/blog/aquila-custom-firmware-guide/</loc>
-  <lastmod>2023-01-13T13:03:30+00:00</lastmod>
+  <lastmod>2024-03-02T14:09:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://philip-sherpas.netlify.app/tags/3d_printing/</loc>
-  <lastmod>2023-01-13T13:03:30+00:00</lastmod>
+  <lastmod>2024-03-02T14:09:30+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 
