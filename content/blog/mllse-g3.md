@@ -1,6 +1,6 @@
 ---
 title: "Mllse G3 Mini PC Intel N100"
-date: 2022-12-10
+date: 2025-06-22
 slug: "mllse-g3-mini-pc"
 description: "A quick look at the mini pc Mllse G3 mini pc with intel n100 cpu, a good option for a efficent home server using ZimaOS, CasaOS, Umbrel, Proxmox or other home server operating system."
 keywords: ["mllse g3", "mini", "pc", "home server","intel", "n100"]
