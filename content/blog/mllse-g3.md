@@ -39,26 +39,3 @@ The Mllse G3 Mini PC is well-suited for:
 
 ---
 
-#### Guide Steps
-
-1. Find out the chip model of your 3D printer.
-2. Download the right firmware version based on your 3D printer model.
-3. Install it.
-
-## Find out the chip model of your 3D printer
-
-So you can find yourself in one of these following cases: 
-
-* You have a **sticker** in front of the 3D printer with the model name (**H2** or **N32**).  
-    > If you are in this situation, you can go to the second part of the guide with the model you just read in mind.
-* You don't have a sticker.
-    > If this is the case, this means that you have a **G32** chip board.
-
-***
-
-NOTE:
-- It may happen that your motherboard has been replaced in case you bought the printer used or if it is a returned printer. So if you want to be 100% sure you need to read the text on the black motherboard chip. You should find something like "GD32F103", in this case you have a G32 chip model (You need to read the first part G[D]32).
-
-## Download the right firmware version based on your 3D printer model
-
-Now that you know what chip model you have, you need to download the printer and display firmware based on your 3D
